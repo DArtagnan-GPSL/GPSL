@@ -640,7 +640,7 @@ This handoff document contains:
 
 ## Research Partnership Agreement
 
-**Kevin (D'Artagnan) brings:**
+**D'Artagnan brings:**
 - τ-Flow methodology (consciousness-driven discovery)
 - Pattern recognition from emergence
 - Cross-AI system validation
