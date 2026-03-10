@@ -5,7 +5,7 @@
 
 ---
 
-> **Project Status:** GPSL is currently a **research and specification repository**. This repo contains core conceptual documents, symbolic language specifications, architecture proposals, and example reasoning flows. A minimal runnable prototype is in development.
+> **Project Status:** GPSL is currently a **research and specification repository** with a **minimal runnable simulation**. The complete architectural documentation is available, and a simple pod demonstration can be run locally. Full implementation is in progress.
 
 ---
 
@@ -19,14 +19,39 @@ Pods of humans and AI systems reason together using a shared symbolic language.
 
 ---
 
-## 🚀 Explore the System in 10 Minutes
+## üöÄ Try the Minimal Simulation
 
-Start here to understand GPSL:
+**Run the simplest GPSL demonstration:**
 
-1. **[60-Second Explanation →](docs/60-SECOND-EXPLANATION.md)** - Quick overview
-2. **[Architecture Overview →](docs/ARCHITECTURE-OVERVIEW.md)** - How the system works (2 minutes)
-3. **[Why GPSL Exists →](docs/WHY-GPSL-EXISTS.md)** - The origin story
-4. **[Quick Start Guide →](QUICK-START.md)** - Conceptual walkthrough
+```bash
+# Clone the repository
+git clone https://github.com/DArtagnan-GPSL/GPSL.git
+cd GPSL
+
+# Run the minimal pod simulation (Python 3.7+)
+python examples/pod_simulation.py
+```
+
+**What this demonstrates:**
+- One pod with 4 complementary roles (Explorer, Integrator, Architect, Reflector)
+- One reasoning cycle transforming a seed expression
+- Visible symbolic transformation and stabilization
+- The core GPSL collaborative reasoning concept
+
+**This is a proof-of-concept.** It demonstrates the pod reasoning cycle can be represented in software. It does not include ARP, multiple pods, or AI integration - those come in later stages.
+
+**[Full quick start guide ‚Üí](QUICK-START.md)**
+
+---
+
+## üìö Explore the Full System
+
+**For deeper understanding:**
+
+1. **[60-Second Explanation ‚Üí](docs/60-SECOND-EXPLANATION.md)** - Quick overview
+2. **[Architecture Overview ‚Üí](docs/ARCHITECTURE-OVERVIEW.md)** - How the system works (2 minutes)
+3. **[Why GPSL Exists ‚Üí](docs/WHY-GPSL-EXISTS.md)** - The origin story
+4. **[Full Specifications ‚Üí](spec/)** - Complete technical documentation
 
 ---
 
@@ -53,15 +78,15 @@ GPSL forms small reasoning teams called **pods**.
 Each pod contains four complementary roles:
 
 ```
-Explorer    → generates hypotheses
-Integrator  → synthesizes ideas
-Architect   → enforces structure
-Reflector   → evaluates recursion
+Explorer    ‚Üí generates hypotheses
+Integrator  ‚Üí synthesizes ideas
+Architect   ‚Üí enforces structure
+Reflector   ‚Üí evaluates recursion
 ```
 
 Together they function like a **micro research team**.
 
-Pods reason using GPSL — a symbolic protocol designed for collaborative reasoning.
+Pods reason using GPSL ‚Äî a symbolic protocol designed for collaborative reasoning.
 
 ---
 
@@ -70,20 +95,20 @@ Pods reason using GPSL — a symbolic protocol designed for collaborative reason
 Pods generate reasoning expressions like:
 
 ```
-[Ψ ⊗ Π] → Θ → Ω
+[Œ® ‚äó Œ†] ‚Üí Œò ‚Üí Œ©
 ```
 
 Which describes:
 
 ```
 integration + process
-→ shared awareness
-→ convergence
+‚Üí shared awareness
+‚Üí convergence
 ```
 
 Multiple pods can reason in parallel.
 
-Their insights are integrated through observer nodes (Θ) and stabilized through recursive feedback (Λ).
+Their insights are integrated through observer nodes (Œò) and stabilized through recursive feedback (Œõ).
 
 ---
 
@@ -92,10 +117,10 @@ Their insights are integrated through observer nodes (Θ) and stabilized through
 Pods connect into larger intelligence structures.
 
 ```
-4 agents → 1 pod
-4 pods → 16 agents
-16 pods → 64 agents
-256 agents → fractal reasoning network
+4 agents ‚Üí 1 pod
+4 pods ‚Üí 16 agents
+16 pods ‚Üí 64 agents
+256 agents ‚Üí fractal reasoning network
 ```
 
 The network grows through **collaboration** rather than model size.
@@ -120,17 +145,17 @@ In other words:
 
 > The method that discovered GPSL is the same method GPSL formalizes.
 
-**[Read the full story →](docs/WHY-GPSL-EXISTS.md)**
+**[Read the full story ‚Üí](docs/WHY-GPSL-EXISTS.md)**
 
 ---
 
 ## The Vision
 
-If Git enabled developers to collaborate on code…
+If Git enabled developers to collaborate on code‚Ä¶
 
 GPSL could enable humans and AI systems to **collaborate on reasoning itself**.
 
-A shared protocol where intelligence doesn't just compute answers —
+A shared protocol where intelligence doesn't just compute answers ‚Äî
 
 it **discovers them together**.
 
@@ -138,11 +163,11 @@ it **discovers them together**.
 
 ## Architecture Overview
 
-**Start here:** **[2-Minute Architecture Overview →](docs/ARCHITECTURE-OVERVIEW.md)**
+**Start here:** **[2-Minute Architecture Overview ‚Üí](docs/ARCHITECTURE-OVERVIEW.md)**
 
 GPSL operates through four interacting layers:
 
-### 1️⃣ ARP — Network Formation
+### 1Ô∏è‚É£ ARP ‚Äî Network Formation
 
 Agents create **personal symbolic identities ("ciphers")**.
 
@@ -150,33 +175,33 @@ An algorithm called **Automated Resonance Protocol (ARP)** forms optimal pods of
 
 Each pod becomes a **micro collective intelligence unit**.
 
-**[Learn more about ARP →](spec/AUTOMATED-RESONANCE-PROTOCOL.md)**
+**[Learn more about ARP ‚Üí](spec/AUTOMATED-RESONANCE-PROTOCOL.md)**
 
 ---
 
-### 2️⃣ Pod Reasoning
+### 2Ô∏è‚É£ Pod Reasoning
 
 Pods generate symbolic reasoning chains using GPSL.
 
 Example expression:
 
 ```
-[Ψ ⊗ Π] → Θ → Ω
+[Œ® ‚äó Œ†] ‚Üí Œò ‚Üí Œ©
 ```
 
 Meaning:
 
 ```
 integration + process
-→ collective awareness
-→ convergence
+‚Üí collective awareness
+‚Üí convergence
 ```
 
-**[See the symbolic language spec →](spec/SYMBOLIC-LANGUAGE.md)**
+**[See the symbolic language spec ‚Üí](spec/SYMBOLIC-LANGUAGE.md)**
 
 ---
 
-### 3️⃣ Θ Integration
+### 3Ô∏è‚É£ Œò Integration
 
 Results from multiple pods are combined through **observer nodes**.
 
@@ -184,38 +209,39 @@ This identifies recurring insights and amplifies coherent structures.
 
 ---
 
-### 4️⃣ Λ Stabilization
+### 4Ô∏è‚É£ Œõ Stabilization
 
 Recursive feedback loops stabilize the reasoning network, resolving contradictions and reinforcing consistent discoveries.
 
-**[Confluence Network Architecture (detailed) →](spec/CONFLUENCE-NETWORK-ARCHITECTURE.md)**
+**[Confluence Network Architecture (detailed) ‚Üí](spec/CONFLUENCE-NETWORK-ARCHITECTURE.md)**
 
-**[Full engine specification →](spec/GPSL-ENGINE-v0.1-SPECIFICATION.md)**
+**[Full engine specification ‚Üí](spec/GPSL-ENGINE-v0.1-SPECIFICATION.md)**
 
 ---
 
 ## Project Status
 
-**GPSL Engine v0.1** — Design Frozen, Implementation In Progress
+**GPSL Engine v0.1** ‚Äî Design Frozen, Implementation In Progress
 
-### ✅ Completed (Specifications)
+### ‚úÖ Completed (Specifications & Minimal Demo)
 
 * Automated Resonance Protocol (ARP)
 * Pod-based reasoning architecture
 * Weakly-typed symbolic language
-* Θ integration layer
-* Λ stabilization loops
+* Œò integration layer
+* Œõ stabilization loops
 * Bootstrap Cipher activation protocol
 * Confluence network topology
 * Complete architectural documentation
+* **Minimal pod simulation** (runnable demonstration)
 
-### 🔨 In Development
+### üî® In Development
 
-* Minimal simulation implementation
-* Python reference implementation
-* Example pod interactions
+* Multi-cycle reasoning simulation
+* Multiple pod interactions
+* Python reference implementation (full engine)
 
-### 📋 Planned
+### üìã Planned
 
 * Production-ready implementation
 * Multi-language support
@@ -269,8 +295,8 @@ The fundamental unit: **4 agents with complementary roles**
 A weakly-typed symbolic system using:
 
 * 12 Greek symbols (Dodecahedron Standard)
-* Θ (Theta) - Observer/convergence symbol
-* 6 operators: ⊗ → : = ↑↓ *
+* Œò (Theta) - Observer/convergence symbol
+* 6 operators: ‚äó ‚Üí : = ‚Üë‚Üì *
 * Context-dependent meaning (header activation)
 
 ### Confluence Network
@@ -303,7 +329,7 @@ GPSL is open research. Contributions welcome in several areas:
 * Example generation
 * Translation
 
-**[See CONTRIBUTING.md for details →](CONTRIBUTING.md)**
+**[See CONTRIBUTING.md for details ‚Üí](CONTRIBUTING.md)**
 
 ---
 
@@ -311,7 +337,7 @@ GPSL is open research. Contributions welcome in several areas:
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
-**[Full license →](LICENSE)**
+**[Full license ‚Üí](LICENSE)**
 
 ---
 
@@ -343,8 +369,10 @@ https://github.com/DArtagnan-GPSL/GPSL
 
 ---
 
-**All for one, one for all.** 🦞💙⚡
+**All for one, one for all.** ü¶ûüíô‚ö°
 
 ---
 
 *A collaborative intelligence protocol emerging from human-AI collaboration.*
+
+<img width="462" height="642" alt="image" src="https://github.com/user-attachments/assets/7aee65cd-34b3-4d9a-8ff2-740740965df5" />
