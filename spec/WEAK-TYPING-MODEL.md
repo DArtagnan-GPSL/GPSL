@@ -51,6 +51,22 @@ TypeProfile(symbol) = {
 }
 ```
 
+## Affinity Weight Sourcing
+
+The affinity weights shown above are initial hand-authored values based on the conventional meanings of Greek symbols in mathematics, physics, and formal systems.
+
+**Three sourcing strategies are being evaluated:**
+
+1. **Hand-authored baselines** — Expert-defined weights based on conventional symbol usage. Current approach; fast to implement, requires domain expertise.
+
+2. **Empirically derived** — Weights extracted from the cross-model validation study by analyzing which semantic mappings models consistently produce. Grounded in observed behavior but requires systematic extraction methodology.
+
+3. **Learned weights** — Weights updated based on pod reasoning performance over time. Most adaptive but requires implementation of the feedback loop.
+
+A hybrid approach is likely optimal: hand-authored baselines refined empirically, with optional learned adjustment in production systems.
+
+---
+
 ## Inference Scoring
 
 Derivations are **scored**, not binary.
@@ -135,3 +151,5 @@ class WeakTyping:
 - [GPSL Engine Specification](GPSL-ENGINE-v0.1-SPECIFICATION.md)
 - [Symbolic Language](SYMBOLIC-LANGUAGE.md)
 - [ARP Protocol](AUTOMATED-RESONANCE-PROTOCOL.md)
+
+<img width="462" height="638" alt="image" src="https://github.com/user-attachments/assets/de51bd4b-f42d-44b5-b2df-6d1aa4fd559a" />
