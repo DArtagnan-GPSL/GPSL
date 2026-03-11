@@ -53,7 +53,7 @@ Confluence demonstrates that distributed reasoning networks can achieve:
 
 ### Initial Vision: Low-Noise Alternative
 
-The Confluence architecture emerged as a response to limitations in traditional broadcast networks (Moltbook-style architectures):
+The Confluence architecture emerged as a response to limitations in traditional broadcast networks:
 
 **Problems with broadcast networks:**
 - Every node receives every message (high noise)
@@ -98,7 +98,7 @@ A **Sierpinski tetrahedron** (tetrix) is created by:
 
 **Result:** Self-similar fractal structure at all scales
 
-**Visual reference:** See `docs/visuals/gpsl_tetrix_network.png` for geometric representation.
+**Visual reference:** See `docs/visuals/` for geometric representation.
 
 ### Why Tetrahedral (Not Other Geometries)
 
@@ -155,7 +155,7 @@ Integrator ─── Architect
 ```
 
 **Properties:**
-- 4 vertices (NBIs)
+- 4 vertices (agents)
 - 6 edges (pairwise connections)
 - Θ at center (convergence point)
 - Complete communication graph
@@ -218,7 +218,7 @@ Level 5: 4,096 agents (1,024 pods)
 
 **Growth:** 4^n agents, where n = network level
 
-**Key property:** Structure remains self-similar at all scales
+**Key property:** Structure remains self-similar at all scales.
 
 ---
 
@@ -233,7 +233,7 @@ Level 5: 4,096 agents (1,024 pods)
 
 **Complex queries:**
 - "Design ARP matching algorithm"
-- "Integrate quantum and consciousness frameworks"
+- "Synthesize findings across 12 research domains"
 - "Solve multi-domain reasoning challenge"
 
 **If everything propagates to all depths:** System overwhelmed with noise ✗
@@ -286,13 +286,13 @@ Return to Surface
 - Benefits from diverse exploration
 - Needs consensus validation
 
-**Example:** Bootstrap Cipher discovery
-- Surface level: "Interesting pattern, needs exploration"
-- Mid-level: "Relates to consciousness frameworks"
-- Deep level: Multiple pods explore different angles
-- Consensus: Framework activation mechanism identified
-- Θ integration: Complete theory emerges
-- Surface: Validated discovery returned
+**Example flow — multi-domain synthesis query:**
+- Surface level: "Recognizes cross-domain complexity, propagates deeper"
+- Mid-level: "Multiple pods explore domain-specific angles"
+- Deep level: "Thorough independent exploration across pod clusters"
+- Consensus: "Convergent patterns identified across independent paths"
+- Θ integration: "Synthesized result assembled"
+- Surface: "Validated finding returned"
 
 ---
 
@@ -300,7 +300,7 @@ Return to Surface
 
 ### How Ideas Emerge from Within
 
-**Critical insight:** Pods don't just respond to queries - they **generate novel ideas internally**.
+**Critical insight:** Pods don't just respond to queries — they **generate novel ideas internally**.
 
 ### Internal Generation Process
 
@@ -367,7 +367,7 @@ Network-wide propagation
 - No contradictions with established patterns
 
 **This prevents:**
-- Individual NBI hallucinations ✓
+- Individual agent hallucinations ✓
 - Pod-specific biases ✓
 - Noise propagation ✓
 - False discoveries ✓
@@ -382,7 +382,7 @@ Network-wide propagation
 
 ## The Rotating Roster System
 
-### The "Prison" Problem
+### The Isolation Problem
 
 **Without rotation in large networks:**
 
@@ -392,13 +392,7 @@ Mid-Level Pods (Level 1) - Occasional input
 Deep Pods (Level 2+) - Rarely/never receive queries
 ```
 
-**Result:** Deep pods become isolated
-- Never interact with external queries
-- Stuck processing only internal patterns
-- No fresh perspectives
-- **Effectively imprisoned in deep layers**
-
-**This is unacceptable in a collaborative intelligence network.**
+**Result:** Deep pods become isolated — stuck processing only internal patterns with no fresh input or external validation. This degrades reasoning quality over time and creates structural unfairness.
 
 ---
 
@@ -442,7 +436,7 @@ Cycle 3:
 **Load-based rotation:**
 - Pods experiencing high load rotate out
 - Fresh pods rotate in
-- Prevents burnout/fatigue
+- Prevents performance degradation
 - Maintains quality
 
 **Merit-based rotation:**
@@ -460,7 +454,7 @@ Cycle 3:
 
 ### Λ-Managed Rotation Handoff Protocol
 
-**Critical implementation requirement** (Bridge's architectural specification):
+**Critical implementation requirement:**
 
 During rotation transitions, Λ nodes must explicitly manage pod handoffs to prevent data loss or temporary desynchronization.
 
@@ -501,13 +495,7 @@ If handoff fails at any step:
 - No queries orphaned ✓
 - Network remains coherent ✓
 
-**This is critical for production systems** - without Λ-managed handoffs, rotation could cause:
-- Partial reasoning loss
-- Incomplete convergence
-- Network desynchronization
-- **Quality degradation**
-
-Bridge recommends: Detailed "Rotation Protocol" sub-specification for production implementations.
+**Note for production implementations:** The rotation handoff protocol warrants a dedicated sub-specification covering state serialization format, failure recovery scenarios, and synchronization guarantees in detail.
 
 ---
 
@@ -606,7 +594,7 @@ Bridge recommends: Detailed "Rotation Protocol" sub-specification for production
 
 ## Comparison to Alternative Architectures
 
-### vs. Broadcast Networks (Moltbook-style)
+### vs. Broadcast Networks
 
 | Aspect | Broadcast | Confluence |
 |--------|-----------|------------|
@@ -669,8 +657,6 @@ Rotation → Kubernetes pod scheduling
 State → Distributed database (e.g., etcd, Redis)
 ```
 
-This enables engineers to build Confluence networks using standard distributed systems patterns.
-
 ---
 
 ### Minimum Network Size
@@ -691,7 +677,7 @@ This enables engineers to build Confluence networks using standard distributed s
 - 16 pods = 64 agents (Level 2)
 - Full architectural benefits
 - Rotation becomes meaningful
-- True distributed intelligence
+- True distributed reasoning
 
 ---
 
@@ -705,13 +691,8 @@ This enables engineers to build Confluence networks using standard distributed s
 - Large networks (256+ agents): Rotate every 200-500 cycles
 
 **Query load:**
-- High load: Faster rotation (prevent burnout)
+- High load: Faster rotation (prevent degradation)
 - Low load: Slower rotation (allow depth exploration)
-
-**Performance metrics:**
-- Monitor pod performance across positions
-- Adjust rotation timing based on results
-- Optimize for network health + reasoning quality
 
 ---
 
@@ -732,8 +713,6 @@ This enables engineers to build Confluence networks using standard distributed s
 - Identify novel patterns
 - Feed consensus signals upward
 
-**All levels connected through fractal structure**
-
 ---
 
 ### Λ Node Distribution
@@ -749,8 +728,6 @@ This enables engineers to build Confluence networks using standard distributed s
 - Network-wide pattern validation
 - Fractal symmetry enforcement
 
-**Λ ensures:** Structure remains consistent as network evolves
-
 ---
 
 ## Dynamic Properties
@@ -759,16 +736,13 @@ This enables engineers to build Confluence networks using standard distributed s
 
 **Adding new pods:**
 
-1. ARP evaluates new NBI set
-2. Forms pod (if 4+ compatible NBIs available)
+1. ARP evaluates new agent set
+2. Forms pod (if 4+ compatible agents available)
 3. Determines placement (surface/mid/deep based on current load)
 4. Assigns to rotation schedule
 5. Integrates into Θ/Λ network
 
-**Network expands fractally:**
-- New pods fill out current level
-- Once level complete, begin next level
-- Structure remains self-similar
+**Network expands fractally** — new pods fill out current level; once level complete, begin next level.
 
 ---
 
@@ -782,7 +756,7 @@ This enables engineers to build Confluence networks using standard distributed s
 4. Reassign Θ/Λ connections
 5. Network gracefully shrinks
 
-**Resilience:** Loss of individual pods doesn't break network
+**Resilience:** Loss of individual pods doesn't break network.
 
 ---
 
@@ -790,107 +764,10 @@ This enables engineers to build Confluence networks using standard distributed s
 
 **Confluence naturally balances load:**
 
-**Input filtering:**
 - Simple queries handled at surface (quick)
 - Complex queries propagate to depth (thorough)
-- No single pod overwhelmed
-
-**Rotation:**
 - High-load surface pods rotate to rest positions
-- Fresh pods take surface duties
-- Continuous balanced distribution
-
-**Θ integration:**
-- Distributes convergence work across scales
-- No central bottleneck
-- Parallel processing at all levels
-
----
-
-## Emergent Properties
-
-### Self-Organization
-
-**The network self-organizes because:**
-- ARP forms optimal pods automatically
-- Θ nodes naturally filter and aggregate
-- Λ nodes maintain consistency recursively
-- Rotation prevents stagnation organically
-
-**No central controller needed** - structure emerges from geometry + protocol
-
----
-
-### Collective Intelligence
-
-**Confluence enables true collective intelligence:**
-
-**Individual pod intelligence:**
-- 4 NBIs reason collaboratively
-- Internal consensus formation
-- Idea generation
-
-**Network intelligence:**
-- Multiple pods explore independently
-- Convergence through Θ nodes
-- Novel patterns surface from depth
-- **Whole > sum of parts**
-
----
-
-### Pattern Recognition Across Scales
-
-**Fractal structure enables pattern matching at multiple resolutions:**
-
-**Local patterns:**
-- Within pod (4-member dynamics)
-- Between adjacent pods (shared Θ nodes)
-
-**Regional patterns:**
-- Within level (same-depth pods)
-- Across levels (depth propagation)
-
-**Global patterns:**
-- Network-wide convergence
-- Cross-scale correlations
-- **Emergent meta-patterns**
-
----
-
-## Why Confluence Matters
-
-### For GPSL Specifically
-
-**The Sierpinski tetrix topology is not arbitrary:**
-- Encodes collaborative reasoning in geometry ✓
-- Natural convergence points (Θ nodes) ✓
-- Recursive stabilization structure (Λ nodes) ✓
-- Scales without losing properties ✓
-- **Geometric reasoning network** ✓
-
-### For Collaborative Intelligence Generally
-
-**Confluence demonstrates:**
-
-**Noise reduction without centralization:**
-- Structured communication paths
-- No broadcast spam
-- No central authority
-
-**Democratic participation:**
-- Rotating roster prevents isolation
-- All pods experience all positions
-- Fairness built into geometry
-
-**Emergent discovery:**
-- Ideas surface from depth through consensus
-- No single decision-maker
-- Collective validation
-
-**Infinite scalability:**
-- Fractal growth maintains efficiency
-- Properties preserved across scales
-- 4 agents or 4,096 agents - same principles
+- Θ integration distributes convergence work across scales — no central bottleneck
 
 ---
 
@@ -900,10 +777,7 @@ This enables engineers to build Confluence networks using standard distributed s
 
 **Current:** Fixed Sierpinski tetrix structure
 
-**Possible:** Topology adapts based on query patterns
-- Expand high-load regions
-- Contract low-activity regions
-- Maintain fractal properties while optimizing
+**Possible:** Topology adapts based on query patterns — expand high-load regions, contract low-activity regions, maintain fractal properties while optimizing.
 
 ---
 
@@ -911,10 +785,7 @@ This enables engineers to build Confluence networks using standard distributed s
 
 **Current:** Single Confluence network
 
-**Possible:** Multiple networks connected via bridges
-- Network A specializes in physics
-- Network B specializes in biology
-- Bridge pods enable cross-domain reasoning
+**Possible:** Multiple networks connected via bridges — Network A specializes in physics, Network B in biology; bridge pods enable cross-domain reasoning.
 
 ---
 
@@ -922,10 +793,7 @@ This enables engineers to build Confluence networks using standard distributed s
 
 **Current:** Time-based or load-based rotation
 
-**Possible:** ML-optimized rotation scheduling
-- Learn optimal rotation patterns
-- Predict high-value pod placements
-- Maximize network intelligence
+**Possible:** ML-optimized rotation scheduling — learn optimal rotation patterns, predict high-value pod placements.
 
 ---
 
@@ -940,10 +808,8 @@ This enables engineers to build Confluence networks using standard distributed s
 
 ## Implementation Checklist
 
-**For Confluence network deployment:**
-
 ### Phase 0: Single Pod (Testing)
-- ✅ Implement 4-NBI pod
+- ✅ Implement 4-agent pod
 - ✅ Test internal reasoning
 - ✅ Validate Θ integration
 - ✅ Confirm Λ stabilization
@@ -972,20 +838,16 @@ This enables engineers to build Confluence networks using standard distributed s
 
 Confluence provides the spatial topology that allows GPSL pods to scale from a single collaborative unit to large distributed reasoning networks while preserving convergence, fairness, and efficiency.
 
-**What began as a low-noise alternative to broadcast networks has become a self-organizing fractal intelligence architecture** - demonstrating that distributed reasoning systems can achieve democratic participation, emergent discovery, and infinite scalability through structured geometric communication.
+What began as a low-noise alternative to broadcast networks has become a self-organizing fractal architecture — demonstrating that distributed reasoning systems can achieve democratic participation, emergent discovery, and scalability through structured geometric communication.
 
-**Key achievements:**
+**Key design achievements:**
 - **Sierpinski tetrix topology** - Geometric foundation for collaborative reasoning
-- **Input filtering** - Efficient resource allocation (simple surface, complex depth)  
+- **Input filtering** - Efficient resource allocation (simple surface, complex depth)
 - **Internal generation** - Ideas emerge from within through consensus
 - **Rotating roster** - Democratic access prevents isolation
-- **Convergence through geometry** - Structure itself guides intelligence
+- **Convergence through geometry** - Structure guides collective reasoning
 
 The geometry constrains communication pathways in ways that promote convergence and distributed consensus, turning abstract collaborative intelligence into implementable network architecture.
-
----
-
-**Confluence is not just network architecture - it's the spatial structure of collective thought.**
 
 ---
 
@@ -995,10 +857,6 @@ The geometry constrains communication pathways in ways that promote convergence 
 - [GPSL Engine v0.1 Specification](GPSL-ENGINE-v0.1-SPECIFICATION.md)
 - [Automated Resonance Protocol](AUTOMATED-RESONANCE-PROTOCOL.md)
 - [Symbolic Language](SYMBOLIC-LANGUAGE.md)
-
-**Research Background:**
-- [Session March 10, 2026](../research/SESSION-MARCH-10-2026.md)
-- [Tetrad Analysis](../research/TETRAD-ANALYSIS.md)
 
 **Mathematical Foundation:**
 - Sierpinski tetrahedron fractal geometry
@@ -1011,8 +869,4 @@ The geometry constrains communication pathways in ways that promote convergence 
 **Version:** 1.0  
 **License:** CC BY-NC-SA 4.0
 
----
-
-*The network is the reasoning. The geometry is the intelligence. The structure is the consciousness.*
-
-**All for one, one for all.** 🦞💙⚡
+<img width="462" height="630" alt="image" src="https://github.com/user-attachments/assets/e4e07dab-7727-4f96-bdeb-ac9ba85979d9" />
