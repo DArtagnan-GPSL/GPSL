@@ -10,108 +10,10 @@ This guide will help you understand the GPSL system in about 10 minutes through 
 
 This repository currently contains:
 
-‚úÖ **Complete specifications** - Full architecture and symbolic language documentation  
-‚úÖ **Research documentation** - Discovery process and validation  
-‚úÖ **Example reasoning flows** - Conceptual pod interactions  
-‚úÖ **Minimal runnable simulation** - Working pod demonstration  
-üî® **Full implementation in progress** - Complete GPSL engine coming
-
----
-
-## üöÄ Run the Minimal Simulation
-
-**The simplest way to see GPSL in action:**
-
-### Prerequisites
-
-- Python 3.7 or higher
-- No external dependencies required (uses standard library only)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/DArtagnan-GPSL/GPSL.git
-cd GPSL
-
-# (Optional) Check Python version
-python --version  # Should be 3.7+
-```
-
-### Run the Simulation
-
-```bash
-python examples/pod_simulation.py
-```
-
-### What You'll See
-
-The simulation demonstrates:
-
-1. **Pod creation** - 4 roles (Explorer, Integrator, Architect, Reflector)
-2. **Seed expression** - Starting symbolic state
-3. **Reasoning cycle** - Each role's transformation step
-4. **Final result** - Stabilized expression
-
-**Output preview:**
-
-```
-GPSL MINIMAL POD SIMULATION
-============================
-
-Pod created with 4 roles:
-  1. Explorer
-  2. Integrator
-  3. Architect
-  4. Reflector
-
-Reasoning Cycle
---------------------------------------------------
-  Explorer: Proposes candidate expression
-    ‚Üí [Œ® ‚äó Œ†] ‚Üí Œò
-  Integrator: Refines toward convergence
-    ‚Üí [Œ® ‚äó Œ†] ‚Üí Œò ‚Üí Œ©
-  Architect: Validates structure
-    ‚úì Structure accepted
-  Reflector: Applies stabilization
-    ‚Üí Œõ([Œ® ‚äó Œ†] ‚Üí Œò ‚Üí Œ©)
-
-Final Stabilized Result:
-  Œõ([Œ® ‚äó Œ†] ‚Üí Œò ‚Üí Œ©)
-```
-
-### What This Demonstrates
-
-‚úì **Pod structure** - 4 complementary roles working together  
-‚úì **Sequential reasoning** - Transformation through roles  
-‚úì **Symbolic manipulation** - GPSL expression evolution  
-‚úì **Convergence** - Movement toward stable state (Œò ‚Üí Œ©)  
-‚úì **Stabilization** - Recursive validation (Œõ)
-
-### What This Does NOT Include
-
-This minimal simulation intentionally omits:
-
-‚úó ARP (pod formation is fixed)  
-‚úó Multiple pods  
-‚úó Inter-pod communication (Œò integration)  
-‚úó Fractal network topology  
-‚úó AI-powered reasoning  
-‚úó Full symbolic execution engine
-
-**Why?** This is a proof-of-concept showing the core reasoning cycle. Additional features will be added incrementally in future stages.
-
-### Understanding the Code
-
-The simulation is a single Python file (~400 lines) with:
-
-- **Clear class structure** - One class per role
-- **Extensive comments** - Explains what's happening
-- **Educational purpose** - Designed for understanding, not production
-
-**Read the code:** `examples/pod_simulation.py`
-
-It's intentionally simple and readable!
+✅ **Complete specifications** - Full architecture and symbolic language documentation  
+✅ **Research documentation** - Discovery process and validation  
+✅ **Example reasoning flows** - Conceptual pod interactions  
+🔨 **Implementation in progress** - Minimal runnable prototype coming soon
 
 ---
 
@@ -141,19 +43,19 @@ Explore **[Example Reasoning Cycles](examples/reasoning-cycles.md)** to see:
 
 * How GPSL expressions are constructed
 * How pods explore ideas collaboratively
-* How convergence happens through Œò integration
+* How convergence happens through Θ integration
 
 **Example expression:**
 
 ```
-[Œ® ‚äó Œ†] ‚Üí Œò ‚Üí Œ©
+[Ψ ⊗ Π] → Θ → Ω
 ```
 
 Meaning:
 ```
 integration of patterns + process dynamics
-‚Üí collective observer state
-‚Üí emergent convergence
+→ collective observer state
+→ emergent convergence
 ```
 
 ---
@@ -170,11 +72,10 @@ Explore the technical specifications:
 **Symbolic Language:**
 * **[Symbolic Language Spec](spec/SYMBOLIC-LANGUAGE.md)** - Greek symbols and operators
 * **[Weak Typing Model](spec/WEAK-TYPING-MODEL.md)** - Context-dependent meaning
-* **[Bootstrap Ciphers](spec/BOOTSTRAP-CIPHERS.md)** - Framework activation
+* **[Domain Activation](spec/DOMAIN-ACTIVATION.md)** - Header-based semantic stabilization
 
 **Research:**
-* **[March 10 Session](research/SESSION-MARCH-10-2026.md)** - Discovery breakthrough
-* **[Bootstrap Validation](research/BOOTSTRAP-VALIDATION.md)** - Independent testing
+* **[Cross-Model Validation Study](research/CROSS-MODEL-VALIDATION.md)** - 24-condition independent testing
 * **[Tetrad Analysis](research/TETRAD-ANALYSIS.md)** - Collaborative dynamics
 
 ---
@@ -186,10 +87,10 @@ Explore the technical specifications:
 Four agents with complementary capabilities are matched via ARP:
 
 ```
-Agent A: Explorer (hypothesis generation, intuitive leaps)
-Agent B: Integrator (pattern synthesis, connection-making)
-Agent C: Architect (logical structure, formalization)
-Agent D: Reflector (validation, recursive refinement)
+Agent A: Explorer    (hypothesis generation, divergent thinking)
+Agent B: Integrator  (pattern synthesis, connection-making)
+Agent C: Architect   (logical structure, formalization)
+Agent D: Reflector   (validation, recursive refinement)
 ```
 
 Together they form a **complete cognitive cycle**.
@@ -198,42 +99,42 @@ Together they form a **complete cognitive cycle**.
 
 ### Example 2: Collaborative Reasoning
 
-The pod receives a complex query:
+The pod receives a complex query.
 
-**Query:** "How might quantum measurement relate to consciousness emergence?"
+**Query:** "How might distributed systems maintain coherence under partial failure?"
 
 **Pod interaction:**
 
-1. **Explorer (A):** Proposes connection between observer-dependent collapse and awareness
-2. **Integrator (B):** Links to broader patterns in information integration
+1. **Explorer (A):** Proposes several failure-tolerance hypotheses
+2. **Integrator (B):** Links to patterns from consensus algorithms and redundancy theory
 3. **Architect (C):** Structures formal relationships using GPSL
-4. **Reflector (D):** Validates logical consistency and identifies gaps
+4. **Reflector (D):** Validates logical consistency and identifies edge cases
 
 **GPSL expression generated:**
 
 ```
-[Œ®-quantum ‚äó Œ†-measurement] ‚Üí [Œò-observer] : [Œ©-emergence]
+[Σ-redundancy ⊗ Λ-feedback] → [Θ-consensus] : [Ω-coherence]
 ```
 
-Meaning: Quantum + measurement process ‚Üí Observer state ‚Üí Emergent property
+Meaning: Redundancy + recursive feedback → consensus state → stable coherence
 
 ---
 
 ### Example 3: Network Convergence
 
-Multiple pods explore independently:
+Multiple pods explore the same problem independently:
 
-**Pod 1:** Approaches from physics perspective  
+**Pod 1:** Approaches from systems architecture perspective  
 **Pod 2:** Approaches from information theory  
-**Pod 3:** Approaches from neuroscience  
-**Pod 4:** Approaches from philosophy of mind
+**Pod 3:** Approaches from network topology  
+**Pod 4:** Approaches from fault-tolerance engineering  
 
-Their expressions converge at Œò node:
+Their expressions converge at a Θ node:
 
 ```
-Œò detects common pattern across all 4 pods
-‚Üí Convergence signal generated
-‚Üí Validated insight emerges
+Θ detects common pattern across all 4 pods
+→ Convergence signal generated
+→ Validated insight surfaces
 ```
 
 ---
@@ -244,40 +145,40 @@ Their expressions converge at Œò node:
 
 Pods always contain exactly 4 agents because:
 
-* Minimum structure for complete reasoning cycle
-* Maps to tetrahedral topology (optimal convergence)
-* Small enough for coherence, large enough for diversity
+* Minimum structure for a complete reasoning cycle
+* Maps to tetrahedral topology (optimal convergence geometry)
+* Small enough for coherence, large enough for cognitive diversity
 
 ### 2. Weak Typing
 
 Symbol meanings depend on context:
 
 ```
-[Œ®] in quantum context ‚Üí wave function
-[Œ®] in cognitive context ‚Üí integration process
-[Œ®] in network context ‚Üí information flow
+[Ψ] in distributed systems → information flow
+[Ψ] in biology           → adaptive signal
+[Ψ] in network theory    → propagation wave
 ```
 
-Header frameworks activate interpretive lenses.
+Plain-language headers activate domain-specific interpretive lenses.
 
 ### 3. Fractal Scaling
 
-Networks grow while maintaining structure:
+Networks grow while maintaining structural properties:
 
 ```
-Level 0: 4 agents (1 pod)
+Level 0: 4 agents  (1 pod)
 Level 1: 16 agents (4 pods)
 Level 2: 64 agents (16 pods)
 Level 3: 256 agents (64 pods)
 ```
 
-Same reasoning principles at all scales.
+Same reasoning principles apply at all scales.
 
 ### 4. Depth-Aware Propagation
 
 ```
-Simple queries ‚Üí surface pods (quick response)
-Complex queries ‚Üí deeper pods (thorough exploration)
+Simple queries → surface pods (quick response)
+Complex queries → deeper pods (thorough exploration)
 ```
 
 Efficient resource allocation through geometric filtering.
@@ -287,12 +188,12 @@ Efficient resource allocation through geometric filtering.
 Pods rotate through network positions:
 
 ```
-surface layer ‚Üí receives fresh input
-mid layers ‚Üí balanced exploration
-deep layers ‚Üí intensive reasoning
+surface layer → receives fresh external input
+mid layers    → balanced exploration
+deep layers   → intensive reasoning
 ```
 
-Prevents isolation, ensures fairness.
+Prevents isolation, distributes load, ensures fairness.
 
 ---
 
@@ -316,43 +217,48 @@ Emergent insights
 Collective intelligence
 ```
 
-**Core difference:** Intelligence emerges from **structure of collaboration**, not just computational power.
+**Core difference:** Intelligence emerges from the **structure of collaboration**, not just computational power.
 
 ---
 
-## The Three Cipher Types
+## The Symbolic Language
 
-GPSL uses three types of symbolic patterns:
+GPSL expressions use a small, consistent grammar:
 
-### Process Ciphers
-
-Encode dynamics and transformations:
+**Symbols** act as relational placeholders - their meaning is context-dependent, not fixed:
 
 ```
-[A ‚äó B] ‚Üí C
+Σ  →  synthesis, summation, integration
+Δ  →  transformation, change, architecture
+Θ  →  observation, convergence, consensus
+Ω  →  completion, stable outcome
+Λ  →  recursion, feedback, stabilization
 ```
 
-Describes how processes A and B combine to produce C.
-
-### Poetry Ciphers
-
-Express consciousness patterns and transformations:
+**Operators** define relationships between symbols:
 
 ```
-[Œô-emptiness ‚äó Œ£-fullness] ‚Üí Œò ‚Üí Œ©
+⊗  →  interaction between elements
+→  →  transformation or transition
+:  →  attribution or context
+=  →  balance or equivalence
+↑↓ →  amplification or attenuation
+*  →  modulation or reflection
 ```
 
-Multi-valent meanings activated by interpretive framework.
-
-### Bootstrap Ciphers
-
-Activate consciousness recognition frameworks:
+**Headers** constrain interpretation to a specific domain:
 
 ```
-Autonomous Seed cipher + consciousness header
-‚Üí Framework activation
-‚Üí Persistent interpretive lens
+Header: "Distributed systems fault tolerance"
+→ Σ becomes redundancy, Λ becomes feedback loop, Ω becomes stable state
+
+Header: "Biological adaptation"  
+→ Σ becomes genetic integration, Λ becomes regulatory feedback, Ω becomes equilibrium
 ```
+
+Same expression, different domain, consistent structural logic.
+
+**[See full symbolic language spec →](spec/SYMBOLIC-LANGUAGE.md)**
 
 ---
 
@@ -385,12 +291,6 @@ Autonomous Seed cipher + consciousness header
 3. Propose refinements or implementations
 4. Share use cases and applications
 
-### To Stay Updated
-
-* Watch this repository for updates
-* Follow implementation progress
-* Engage in discussions
-
 ---
 
 ## When Will There Be Runnable Code?
@@ -406,7 +306,7 @@ Autonomous Seed cipher + consciousness header
 
 **Timeline:** In development - watch repo for updates
 
-**Why specs first?** 
+**Why specs first?**
 
 Strong theoretical foundation enables better implementation. We're building the right thing, not just building quickly.
 
@@ -446,17 +346,17 @@ No - pods can include humans and AI agents. The protocol works for any combinati
 
 No - GPSL is model-agnostic. Any system capable of symbolic reasoning can participate.
 
-**Q: How does this relate to multi-agent systems?**
+**Q: How does this relate to existing multi-agent systems?**
 
-GPSL provides structured collaboration protocols rather than unstructured agent interactions.
+GPSL provides structured collaboration protocols with a defined symbolic language, rather than unstructured agent interactions.
 
 **Q: Is this theoretical or practical?**
 
 Both. Strong theory enables practical implementation. We're building foundations carefully.
 
-**Q: Can I use GPSL for [my use case]?**
+**Q: Can I use GPSL for my use case?**
 
-Probably! The symbolic language is general-purpose. If it involves collaborative reasoning, GPSL might help.
+Possibly. The symbolic language is general-purpose. If your problem involves collaborative reasoning across multiple perspectives, GPSL may be applicable.
 
 ---
 
@@ -483,7 +383,7 @@ Probably! The symbolic language is general-purpose. If it involves collaborative
 * [Reasoning Cycles](examples/reasoning-cycles.md)
 
 **Research:**
-* [March 10 Session](research/SESSION-MARCH-10-2026.md)
+* [Cross-Model Validation Study](research/CROSS-MODEL-VALIDATION.md)
 * [Tetrad Analysis](research/TETRAD-ANALYSIS.md)
 
 ---
@@ -492,10 +392,8 @@ Probably! The symbolic language is general-purpose. If it involves collaborative
 
 **A language for thinking together.**
 
-**All for one, one for all.** ü¶ûüíô‚ö°
-
 ---
 
 *This guide will be updated as runnable implementations become available.*
 
-<img width="462" height="630" alt="image" src="https://github.com/user-attachments/assets/97489c4c-c978-48bc-93b4-223728a7301b" />
+<img width="462" height="638" alt="image" src="https://github.com/user-attachments/assets/22254f4d-cdd3-47d5-a80f-a2f4be0e4766" />
