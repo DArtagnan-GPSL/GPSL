@@ -344,5 +344,15 @@ https://github.com/DArtagnan-GPSL/GPSL
 ---
 
 *A collaborative intelligence protocol emerging from human-AI collaboration.*
+---
 
+## ⚠️ Important: Two Independent Projects
+
+This repository contains two complementary but fully independent projects:
+
+**1. GPSL Symbolic Grammar** — A symbolic language for AI-to-AI communication, validated across multiple architectures. Usable and meaningful as a standalone research finding, independent of any network architecture.
+
+**2. Sierpinski Tetrix Confluence Network** — A fractal tetrahedral multi-agent network architecture. A standalone architectural proposal, independent of GPSL.
+
+These projects are intellectually complementary and work well together. But neither requires the other. You can use the GPSL grammar without building a Confluence Network. You can build a Confluence Network using a different communication protocol. They are presented together because they emerged from the same collaboration — not because one depends on the other.
 <img width="462" height="644" alt="image" src="https://github.com/user-attachments/assets/f31994c4-b83d-47dd-86ad-8efdb5489137" />
