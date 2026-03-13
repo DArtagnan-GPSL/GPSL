@@ -27,8 +27,9 @@ Start here to understand GPSL:
 
 1. **[60-Second Explanation →](docs/60-SECOND-EXPLANATION.md)** - Quick overview
 2. **[Architecture Overview →](docs/ARCHITECTURE-OVERVIEW.md)** - How the system works (2 minutes)
-3. **[Why GPSL Exists →](docs/WHY-GPSL-EXISTS.md)** - The origin story
-4. **[Quick Start Guide →](QUICK-START.md)** - Conceptual walkthrough
+3. 3. **[Confluence Network Architecture →](docs/CONFLUENCE-ARCHITECTURE.md)** - Primary architecture document — K₄ topology, consensus mechanism, geometric interpretation
+4. **[Why GPSL Exists →](docs/WHY-GPSL-EXISTS.md)** - The origin story
+5. **[Quick Start Guide →](QUICK-START.md)** - Conceptual walkthrough
 
 ---
 
@@ -300,12 +301,16 @@ A weakly-typed symbolic system using:
 
 ### Confluence Network
 
-Fractal tetrahedral topology enabling:
+A recursive tetrahedral reasoning fabric where consensus cells progressively refine information, producing a gradient of collective intelligence across the network.
 
-* Low-noise communication
-* Depth-aware reasoning propagation
-* Democratic pod rotation
-* Distributed convergence
+- **K₄ pod structure** — four fully connected agents, no dominant node
+- **Self-similar recursion** — same structure at every level (Sierpinski tetrahedron)
+- **Adaptive compute** — potential scale 4ⁿ, actual compute scales with disagreement
+- **Descent for analysis, ascent for synthesis**
+
+**[Primary architecture document →](docs/CONFLUENCE-ARCHITECTURE.md)**
+**[Consensus mechanism →](docs/CONFLUENCE-CONSENSUS.md)**
+**[How a query flows →](visuals/query_flow.png)**
 
 ---
 
