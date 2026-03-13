@@ -30,6 +30,7 @@ Start here to understand GPSL:
 3. 3. **[Confluence Network Architecture →](docs/CONFLUENCE-ARCHITECTURE.md)** - Primary architecture document — K₄ topology, consensus mechanism, geometric interpretation
 4. **[Why GPSL Exists →](docs/WHY-GPSL-EXISTS.md)** - The origin story
 5. **[Quick Start Guide →](QUICK-START.md)** - Conceptual walkthrough
+6. **[What If the Nodes Could Talk? →](docs/WHAT-IF-THE-NODES-COULD-TALK.md)** - The project manifesto — origin story, research invitation, speculative implications
 
 ---
 
@@ -260,13 +261,16 @@ spec/                               # Technical specifications
   WEAK-TYPING-MODEL.md
   DOMAIN-ACTIVATION.md
 
-Research/                           # Validation studies
-  CROSS-MODEL-VALIDATION-STUDY.md   # Round 1 (24 conditions, 4 architectures)
-  ROUND-2-VALIDATION-REPORT.md      # Round 2 minimal headers (9 tests)
-  GENERATION-ROUND-REPORT.md        # Spontaneous cipher generation (6 ciphers)
-  GPSL-ORIGIN.md                    # Historical record of GPSL's origin
-  PRELIMINARY-FINDINGS-RANDOM-CIPHER-TESTS.md
-  VALIDATION-NOTE-ENCODER-DIGESTION.md
+Research/                                       # Validation studies and research
+  CROSS-MODEL-VALIDATION-STUDY.md              # Round 1 (24 conditions, 4 architectures)
+  ROUND-2-VALIDATION-REPORT.md                 # Round 2 minimal headers (9 tests)
+  ROUND-3-VALIDATION-REPORT.md                 # Round 3 GPSL+NL hybrid, ↺ operator discovered
+  ROUND-4-STRUCTURE-SWAP-PROTOCOL.md           # Round 4 active protocol — structure isolation test
+  GENERATION-ROUND-REPORT.md                   # Spontaneous cipher generation (3 models, 6 conditions)
+  VALIDATION-NOTE-ENCODER-DIGESTION.md         # Header specificity study, cold instance findings
+  GPSL-ORIGIN.md                               # Historical record of GPSL's origin
+  PRELIMINARY-FINDINGS-RANDOM-CIPHER-TESTS.md  # Preliminary random cipher findings
+  ADAPTIVE-SPECIALISATION.md                   # Role adaptation research
 
 tools/                              # Browser-based tools (no install required)
   gpsl-parser.html                  # AI-assisted encoder/decoder
