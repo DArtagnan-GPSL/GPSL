@@ -42,16 +42,46 @@ This document specifies the GPSL Engine: a computational reasoning system built 
 
 ### Expression Grammar (BNF)
 
+*v1.3.0 — updated to include State class*
+
 ```
-<Expression> ::= <Node> 
-               | <Node> ⊗ <Expression> 
-               | <Expression> → <Expression> 
+<Expression> ::= <ProcessNode>
+               | <StateNode>
+               | <Expression> ⊗ <Expression>
+               | <Expression> → <Expression>
+               | <Expression> : <StateNode>
                | Λ(<Expression>)
 
-<Node> ::= [Symbol-ID] 
-         | [Symbol-ID] : <Attribute>
+<ProcessNode> ::= "[" [Symbol-ID] "]"
+                | "[" [Symbol-ID] ":" <Attribute> "]"
+                | "[" [Symbol-ID] "]" "(" <Modifier> ")"
 
-<Attribute> ::= [Symbol-ID] | <Value>
+<StateNode>   ::= "{" [Symbol-ID] "}"
+                | "{" [Symbol-ID] ":" <Attribute> "}"
+
+<Modifier>    ::= [Symbol-ID] "↑" | [Symbol-ID] "↓"
+
+<Attribute>   ::= [Symbol-ID] | <Value>
+```
+
+### Class Notation — Three Bracket System
+
+GPSL v1.3.0 formalises three semantic classes through bracket notation:
+
+| Bracket | Class | Character |
+|---------|-------|-----------|
+| `[ ]` | Process | Kinetic / action / transformation |
+| `{ }` | State | Scalar / experiential / persistent field |
+| `( )` | Modifier | Intensity / direction / magnitude |
+
+**Doing vs Being:** The introduction of `{State}` nodes resolves the "texture paradox" in emotional and biological domains. Previous versions forced scalar experiential qualities into kinetic process slots, distorting structural logic. The State class encodes the *environment or condition* in which a process occurs, not the process itself.
+
+**Constraint:** `{State}` nodes should not be the primary subject of a `→` (Flow) operator. States are conditions inhabited; they do not themselves transform into other states. Processes move *through* states.
+
+```
+Invalid:  {A} → {B}        (state flowing to state)
+Valid:    [A] → [B] : {Γ}  (process under state condition)
+Valid:    [A] ⊗ {B} → [C]  (process interacting within state field)
 ```
 
 ### Special Patterns
@@ -447,5 +477,3 @@ The distinguishing property is **multi-valent interpretability**: the same symbo
 **Status:** Formally specified — implementation ready  
 **Version:** 0.1  
 **License:** CC BY-NC-SA 4.0
-
-<img width="462" height="645" alt="image" src="https://github.com/user-attachments/assets/7f09b64d-14d7-48ec-a077-84f0f2080b0f" />
